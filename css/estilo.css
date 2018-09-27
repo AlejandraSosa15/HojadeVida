@@ -1,0 +1,91 @@
+h1{
+	color:#0000FF;
+}
+article li{
+	color:#00F;
+}
+article li strong{
+	color: #000;
+}
+.contenedor{
+  width: 980px;
+  margin: auto;/*para que la cabeza se acomode*/
+  padding-left: 10px; /*para acomodar el texto*/   
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background-color:#CFD8DC;
+    
+}
+.perfil img{
+  width: 100%;
+  height: 340px;
+  margin-top: 100px;
+}
+.logomenu{
+  display: table;/*que el logo mse vea como una tabla*/
+  width:100%;
+  position: fixed;/*que el logo menu no se desaparesca que este fijo*/
+   background-color: #90CAF9;
+  margin: 0;
+}
+.logo{
+  
+  display: table;
+  float: left;/*para que el menu flote a la izquierda*/
+  overflow: auto;/*si en algun momento el logo es tan pequeño*/
+}
+.logo h1{
+  
+  display: table-cell;/* ver como celda de una tabla*/
+  vertical-align:middle; /*para acomodar el texto*/
+    color: darkblue;
+}
+.menu{
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+  text-align: right;
+}
+
+.menu ul{
+  
+  margin: 0;/*quita todos los margenes*/
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+
+.menu ul li {
+  display: inline-block;/*coloca el menu en lista*/
+  margin right: 20px;/*coloca distancia entre los menus*/
+  
+}
+.menu ul li a{ 
+  display: block;
+  color: darkblue;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  
+}
+.menu ul li a:hover{
+  
+  color: aquamarine;
+  background-color: blue;
+}
+
+.Inicio{
+  display: flex;
+  justify-content: space-around;
+}
+
+.Referencia{
+  display: flex;
+  justify-content: space-around;
+}
+
+ @media(min-width: 601px)and (max-width: 1000px){
+	body{
+		font-family: ARIAL, sans-serif;
+	}
